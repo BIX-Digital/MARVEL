@@ -126,7 +126,7 @@ The do.py script only serves as an example of how to perform an assembly using M
 
     # alternatively you can dump the set of statements build to a text file
     # that you then lateron could use for running jobs on a queuing system
-    # q.dump("statements.txt")
+    # q.dump(sys.stdout)
 
     # build a new queue for the assembly of the patched reads
     q = marvel.queue.queue(DB_FIX, COVERAGE, PARALLEL)
